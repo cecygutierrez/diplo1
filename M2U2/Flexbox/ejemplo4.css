@@ -1,0 +1,22 @@
+.contenedor{
+    background-color: blue;
+    display: flex;
+ /*    display: inline flex; */ 
+
+
+ /* para activar justify debe estar inhabilitado el display inline flex o flex */
+    justify-content: center;
+   /*  justify-content: start; */
+ /*    justify-content: end; */
+
+ /* justify-content: space-around; */
+ justify-content: space-between;
+/*  justify-content: space-evenly; */
+}
+.item{
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+}

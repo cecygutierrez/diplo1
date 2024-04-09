@@ -1,0 +1,16 @@
+.contenedor{
+    background-color: blue;
+    display: flex;
+    display: inline flex;
+
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap; /* desvorda item de contenedor */
+}
+.item{
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+}
