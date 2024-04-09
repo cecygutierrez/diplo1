@@ -1,0 +1,11 @@
+/* #caja: para modificar texto dentro de la caja */
+#caja{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px; /* margen interno */
+    margin-left: 80px; /* mover caja */
+    border-top: 13px dashed blueviolet;
+
+}
