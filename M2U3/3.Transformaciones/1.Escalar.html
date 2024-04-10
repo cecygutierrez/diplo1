@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalar</title>
+    <style tipe="text/css"> 
+
+        .escalar{
+            margin: 120px 150px;
+            width: 500px;
+            height: 300px;
+            background: #676470;
+            color: #fff;
+
+            cursor: pointer;
+
+            font-family: fantasy;
+            font-weight: 900px;
+            font-size: 3.4em;
+
+            text-align: center;
+            line-height: 300px;
+            transition: all 0.3s ease; /* se coloca en la base del elemento (caja). si coloco en caja:hover la transición al sacar es brsuca */
+
+        }
+        .escalar:hover{
+            /* box-shadow: inset 0 0 0 25px #53a7ea; */
+           /*  background: violet; */
+           transform: scale(1.5,0.6);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="escalar">Escalar</div>
+</body>
+</html>
