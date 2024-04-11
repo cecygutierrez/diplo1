@@ -1,19 +1,28 @@
-.rectangulo{
-    width: 80px;
-    height: 80px;
-    background-color: cadetblue;
-    animation-name: mianimacion;
-    animation: 4s;
-    animation-fill-mode: forwards;
+.demo .juego{
+    list-style-type: none;
+    float: left;
+   display: inline-table; 
 }
-@keyframes mianimacion{
-    from{ font-size: 100%;}
+.juego{ 
+    width: 200px;
+    padding: 2em 1em 1 em 1em;
+    text-align: center;
+    transition: all 3s ease;
 }
-50%{
-    font size: 400%
+.juego img{
+    margin:0 auto;
+    display: block;
+    transform: scale(0.9);
+    transition: all 2s ease;
 }
-to{
-    font-size: 400%;
-    margin-left: 20%;
-    width: 100%;
+.juego:hover{
+    background-color: brown;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.juego:hover img{
+    transform: scale(1);
+}
+.juego:hover h2{
+    color: blue;
 }

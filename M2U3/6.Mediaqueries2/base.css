@@ -1,0 +1,78 @@
+body{
+    color: blue;
+    background: wheat;
+    font-size: 100%;
+}
+.contenedor{
+    width: 800px;
+    background: orange;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    background: blueviolet;
+    float: left;
+    width: 100px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    color: olivedrab;
+    background: rgb(232, 195, 195);
+    text-decoration: none;
+}
+
+
+.contenido{
+    background: tomato;
+    float: left;
+    margin: 0 0 0 25px;
+    width: 400px;
+}
+
+#extras{
+    background: cornflowerblue;
+    float: right;
+    width: 190px;
+}
+
+
+@media screen and (min-width 230px) and (max-width 800px){ 
+    body{
+        padding: 0;
+        margin:0;
+    }
+    .contenedor{
+        background: firebrick;
+        width: 100%;
+    }
+    nav{
+        background: goldenrod;
+        float: none;
+        width: 100%;
+    }
+    nav ul{
+        margin: 0;
+    }
+    nav ul li a{ 
+        padding: 0.5em;
+        display: block;
+        color: black;
+    }
+  
+    
+    .contenido{
+        border-top: solid black0.1em;
+        float: none;
+        padding: 0.9em;
+        width: 100%;
+        margin-left: 0;
+    }
+    aside{
+        border-top: solid black 0.1em;
+        float: none;padding: 0.8em;
+        width: 100%;
+        margin-left: 0;
+    }
+}
