@@ -1,4 +1,4 @@
-.rectangulo{
+.rectangulo {
     width: 200px;
     height: 200px;
     background-color: rgb(100, 220, 225);
@@ -7,15 +7,15 @@
     animation-fill-mode: forwards;
 }
 
-@keyframes Mianimacion{
-    from{
+@keyframes Mianimacion {
+    from {
         font-size: 0%;
         margin-left: 200%;
-    
+
 
     }
 
-    to{
+    to {
         font-size: 800%;
         margin-left: 40%;
         width: 300%;
